@@ -18,7 +18,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="./JavaScript/Script.js"></script>
+    <script type="text/javascript">
+    
+      function upTotop() {
+          window.scrollTo(0, 0);
+    
+    }
+  </script>
 
     <link rel="shortcut icon" href="/Img/Logo tipo.jpg">
 
@@ -62,11 +68,12 @@
           <label for="interest">Principal Interesse</label>
           <select name="interest">
             <option value="" disabled selected>Selecione</option>
-            <option value="apartment">Guarda Roupas</option>
-            <option value="house">Comadas</option>
-            <option value="garden">Racks</option>
-            <option value="other">Mesas</option>
-            <option value="cabinet">Armarios</option>
+            <option value="Guarda Roupas">Guarda Roupas</option>
+            <option value="Cômodas">Cômodas</option>
+            <option value="Racks">Racks</option>
+            <option value="Mesas">Mesas</option>
+            <option value="Armarios">Armarios</option>
+            <option value="Outros">Outros</option>
           </select>
         </div>
         <input type="submit" class="btn" value="Quero me inscrever" />
@@ -274,7 +281,7 @@
   </section>
   <section id="cta">
     <h3>Gostou? Então se Inscreva pra receber Mias informações:</h3>
-    <button class="btn btninscricao" name= "btninscricao" id="btninscricao" onclick="upTotop()">Solicitar Inscrição</button>
+    <button class="btn btninscricao" name= "btninscricao" id="btninscricao" onclick="javascript: upTotop()">Solicitar Inscrição</button>
   </section>
   <footer id="footer">
     <h3>Planejados.Com</h3>
